@@ -673,6 +673,7 @@ textarea {
   outline: transparent;
   font-weight: 500;
   font-size: 12px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: border-color var(--main-transition);
@@ -704,6 +705,7 @@ textarea {
   outline: transparent;
   font-weight: 500;
   font-size: 12px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: border-color var(--main-transition);
@@ -855,6 +857,7 @@ textarea {
   color: var(--dark-navy-color);
   outline: transparent;
   font-weight: 500;
+  line-height: 1.5;
   font-size: 18px;
 
   letter-spacing: 0.04em;
@@ -895,7 +898,7 @@ textarea {
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-attention {
   border: none;
   background-color: var(--pressed-state-color);
-  fill: var(--white-color);
+  fill: var(--white-cornflower-color);
 }
 .modal-checkbox-link {
   color: var(--attention-color);
@@ -910,6 +913,7 @@ textarea {
   background-color: var(--attention-color);
   color: var(--white-color);
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   transition: background-color var(--main-transition);
